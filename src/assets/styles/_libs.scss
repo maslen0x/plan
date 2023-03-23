@@ -1,0 +1,16 @@
+@import 'antd/dist/reset';
+
+.ant-modal {
+  .ant-modal-content {
+    padding: 0;
+  }
+
+  .ant-modal-header {
+    padding: 1rem 1.5rem;
+    border-bottom: $border;
+  }
+
+  .ant-modal-body {
+    padding: 1.5rem;
+  }
+}

@@ -1,0 +1,25 @@
+@import '@/assets/styles/vars';
+
+.item {
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.dropdown {
+  :global(.ant-dropdown-menu) {
+    :global(.ant-dropdown-menu-item) {
+      &:hover {
+        color: $primary;
+        background-color: transparent;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

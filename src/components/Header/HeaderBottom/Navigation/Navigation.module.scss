@@ -1,0 +1,10 @@
+.navigation:global(.ant-tabs) {
+  :global(.ant-tabs-nav) {
+    height: 48px;
+    margin: 0;
+  }
+
+  :global(.ant-tabs-tab) {
+    padding: 1rem;
+  }
+}

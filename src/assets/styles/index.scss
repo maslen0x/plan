@@ -1,0 +1,23 @@
+@import 'vars';
+@import 'libs';
+@import 'fonts';
+
+body {
+  color: transparentize(#000, 0.35);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}

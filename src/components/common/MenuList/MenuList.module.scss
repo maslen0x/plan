@@ -1,0 +1,29 @@
+@import '@/assets/styles/vars';
+
+.menu {
+  &:global(.ant-menu) {
+    &:global(.ant-menu-root) {
+      border-inline-end: none;
+    }
+
+    :global(.ant-menu-item) {
+      width: 100%;
+      border-radius: 0;
+      margin: 8px 0;
+
+      &:hover:not(:global(.ant-menu-item-selected)) {
+        color: $primary;
+        background-color: transparent;
+      }
+    }
+
+    :global(.ant-menu-item-selected) {
+      background-color: transparentize($primary, 0.8);
+
+      &::after {
+        width: 3px;
+        background-color: $primary;
+      }
+    }
+  }
+}
